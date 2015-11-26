@@ -14,5 +14,10 @@ CONFIG   -= app_bundle
 
 TEMPLATE = app
 
+DESTDIR = $$PWD
+
 
 SOURCES += main.cpp
+
+OTHER_FILES += \
+    database.txt
